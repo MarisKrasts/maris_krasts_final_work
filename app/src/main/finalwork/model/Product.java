@@ -1,4 +1,4 @@
-package teacher.finalwork.model;
+package finalwork.model;
 
 import java.math.BigDecimal;
 import java.util.Objects;

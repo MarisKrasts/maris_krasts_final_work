@@ -1,4 +1,4 @@
-package maris.krasts.finalwork.repository;
+package finalwork.repository;
 
 import java.util.List;
 

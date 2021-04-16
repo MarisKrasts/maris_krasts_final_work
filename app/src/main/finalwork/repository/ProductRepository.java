@@ -1,6 +1,6 @@
-package teacher.finalwork.repository;
+package finalwork.repository;
 
-import maris.krasts.finalwork.model.Product;
+import finalwork.model.Product;
 
 import java.util.List;
 import java.util.Map;
