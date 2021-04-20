@@ -1,14 +1,12 @@
-package maris.krasts.final_work.repository;
+package finalwork.repository;
 
 import finalwork.model.Product;
-import finalwork.repository.ProductRepository;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 
 import static org.junit.Assert.*;
 

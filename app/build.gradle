@@ -17,17 +17,15 @@ repositories {
 }
 
 dependencies {
+
+    implementation group: 'org.springframework', name: 'spring-context', version: '5.3.6'
+
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13'
-
-    // This dependency is used by the application.
-    implementation 'com.google.guava:guava:29.0-jre'
-    // https://mvnrepository.com/artifact/org.mockito/mockito-core
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.8.0'
-
 }
 
 application {
     // Define the main class for the application.
-    mainClass = 'lv.lu.maris.krasts.final_work.App'
+    mainClass = 'finalwork.ProductAccountingApplication'
 }

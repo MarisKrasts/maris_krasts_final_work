@@ -1,11 +1,9 @@
-package maris.krasts.final_work.service;
+package finalwork.service;
 
 import finalwork.model.Product;
 import finalwork.model.ProductCategory;
 import finalwork.model.ProductInputData;
 import finalwork.repository.ProductRepository;
-import finalwork.service.ProductService;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
