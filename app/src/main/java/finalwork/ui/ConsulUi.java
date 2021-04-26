@@ -3,14 +3,18 @@ package finalwork.ui;
 
 import finalwork.model.ProductInputData;
 import finalwork.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 
 import java.util.Scanner;
 
+@Controller
 public class ConsulUi {
 
-    private ProductService productService;
-    private Scanner scanner;
+    private final ProductService productService;
+    private final Scanner scanner;
 
+    @Autowired
     public ConsulUi(ProductService productService, Scanner scanner) {
         this.productService = productService;
         this.scanner = scanner;
