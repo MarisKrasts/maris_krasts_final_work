@@ -4,7 +4,7 @@ package finalwork.service;
 import finalwork.model.Product;
 import finalwork.model.ProductCategory;
 import finalwork.model.ProductInputData;
-import finalwork.repository.ProductRepository;
+import finalwork.repository.Repository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -22,7 +22,7 @@ public class ProductServiceTest {
     private ProductService victim;
 
     @Mock
-    private ProductRepository repositoryMock;
+    private Repository repositoryMock;
 
     @Test
     public void shouldCovertAndStoreProductData() {
