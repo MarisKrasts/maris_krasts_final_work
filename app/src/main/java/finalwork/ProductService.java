@@ -1,11 +1,8 @@
-package finalwork.service;
+package finalwork;
 
 
-import finalwork.model.Product;
-import finalwork.model.ProductCategory;
-import finalwork.model.ProductData;
-import finalwork.model.ProductInputData;
-import finalwork.repository.Repository;
+import finalwork.domain.Product;
+import finalwork.domain.ProductCategory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,25 +10,24 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @Service
 public class ProductService {
 
-    private final Repository<Product> repository;
+    private final Repository<Product> productRepository;
 
     @Autowired
-    public ProductService(Repository<Product> repository) {
-        this.repository = repository;
+    public ProductService(Repository<Product> productOrmRepository) {
+        this.productRepository = productOrmRepository;
     }
 
     public void save(ProductInputData productInputData) {
         Product product = convertFrom(productInputData);
-        repository.save(product);
+        productRepository.save(product);
     }
 
     public List<ProductData> findAll() {
         List<ProductData> result = new ArrayList<>();
-        for (Product product : repository.findAll()) {
+        for (Product product : productRepository.findAll()) {
             result.add(covertFrom(product));
         }
         return result;

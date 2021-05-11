@@ -1,4 +1,4 @@
-package finalwork.model;
+package finalwork;
 
 public class ProductInputData {
 

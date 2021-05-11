@@ -1,5 +1,6 @@
 package finalwork;
 
+
 import finalwork.config.AppConfiguration;
 import finalwork.ui.ConsulUi;
 import org.springframework.context.ApplicationContext;

@@ -1,4 +1,4 @@
-package finalwork.repository;
+package finalwork;
 
 import java.util.List;
 

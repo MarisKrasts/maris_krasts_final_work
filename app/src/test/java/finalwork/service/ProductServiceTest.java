@@ -1,10 +1,11 @@
 package finalwork.service;
 
 
-import finalwork.model.Product;
-import finalwork.model.ProductCategory;
-import finalwork.model.ProductInputData;
-import finalwork.repository.Repository;
+import finalwork.ProductInputData;
+import finalwork.ProductService;
+import finalwork.Repository;
+import finalwork.domain.Product;
+import finalwork.domain.ProductCategory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
