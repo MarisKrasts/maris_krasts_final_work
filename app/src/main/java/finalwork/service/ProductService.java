@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -29,11 +28,12 @@ public class ProductService {
     }
 
     public List<ProductData> findAll() {
-        List<ProductData> result = new ArrayList<>();
-        for (Product product : productRepository.findAll()) {
-            result.add(covertFrom(product));
-        }
-        return result;
+        throw new RuntimeException("Some random error");
+//        List<ProductData> result = new ArrayList<>();
+//        for (Product product : productRepository.findAll()) {
+//            result.add(covertFrom(product));
+//        }
+//        return result;
     }
 
     private ProductData covertFrom(Product product) {
