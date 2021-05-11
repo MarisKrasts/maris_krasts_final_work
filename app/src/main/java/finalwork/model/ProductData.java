@@ -1,4 +1,4 @@
-package finalwork;
+package finalwork.model;
 
 public class ProductData {
 

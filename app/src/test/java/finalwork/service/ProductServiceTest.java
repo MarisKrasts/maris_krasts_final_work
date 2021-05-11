@@ -2,7 +2,6 @@ package finalwork.service;
 
 
 import finalwork.ProductInputData;
-import finalwork.ProductService;
 import finalwork.Repository;
 import finalwork.domain.Product;
 import finalwork.domain.ProductCategory;

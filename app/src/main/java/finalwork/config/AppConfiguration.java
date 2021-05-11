@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Scanner;
 
 @Configuration
-@ComponentScan("finalwork")
+@ComponentScan("lv.lu.martins.ceske.finalwork")
 public class AppConfiguration {
 
     @Bean

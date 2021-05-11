@@ -1,7 +1,7 @@
 package finalwork.ui;
 
-import finalwork.ProductInputData;
-import finalwork.ProductService;
+import finalwork.model.ProductInputData;
+import finalwork.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
